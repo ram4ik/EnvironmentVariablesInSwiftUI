@@ -11,6 +11,8 @@
 		1D5FAD9A254AA47D00F76B8D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D5FAD99254AA47D00F76B8D /* ContentView.swift */; };
 		1D5FAD9C254AA48300F76B8D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1D5FAD9B254AA48300F76B8D /* Assets.xcassets */; };
 		1D5FAD9F254AA48300F76B8D /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1D5FAD9E254AA48300F76B8D /* Preview Assets.xcassets */; };
+		1D5FADA8254AA4A600F76B8D /* ColoredRectangle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D5FADA7254AA4A600F76B8D /* ColoredRectangle.swift */; };
+		1D5FADAB254AA64200F76B8D /* ModalView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D5FADAA254AA64200F76B8D /* ModalView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +22,8 @@
 		1D5FAD9B254AA48300F76B8D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1D5FAD9E254AA48300F76B8D /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		1D5FADA0254AA48300F76B8D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1D5FADA7254AA4A600F76B8D /* ColoredRectangle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColoredRectangle.swift; sourceTree = "<group>"; };
+		1D5FADAA254AA64200F76B8D /* ModalView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModalView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +58,8 @@
 			children = (
 				1D5FAD97254AA47D00F76B8D /* EnvironmentVariablesInSwiftUIApp.swift */,
 				1D5FAD99254AA47D00F76B8D /* ContentView.swift */,
+				1D5FADAA254AA64200F76B8D /* ModalView.swift */,
+				1D5FADA7254AA4A600F76B8D /* ColoredRectangle.swift */,
 				1D5FAD9B254AA48300F76B8D /* Assets.xcassets */,
 				1D5FADA0254AA48300F76B8D /* Info.plist */,
 				1D5FAD9D254AA48300F76B8D /* Preview Content */,
@@ -138,7 +144,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1D5FADA8254AA4A600F76B8D /* ColoredRectangle.swift in Sources */,
 				1D5FAD9A254AA47D00F76B8D /* ContentView.swift in Sources */,
+				1D5FADAB254AA64200F76B8D /* ModalView.swift in Sources */,
 				1D5FAD98254AA47D00F76B8D /* EnvironmentVariablesInSwiftUIApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
